@@ -27,18 +27,18 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         int a = 1;
-        Log.d("a",String.valueOf(a));
+       // Log.d("a",String.valueOf(a));
         int b = 3;
-        Log.d("b-segundo comentario", String.valueOf(b));
+       // Log.d("b-segundo comentario", String.valueOf(b));
         int r= a+b;
-        Log.d("b-segundo comentario", String.valueOf(r));
+       // Log.d("b-segundo comentario", String.valueOf(r));
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Replace 11111", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
